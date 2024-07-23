@@ -1,0 +1,73 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 50vh;
+    background-size: cover;
+}
+
+nav {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    /* background-color: rgba(233, 235, 237, 0.705); */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoimg {
+    height: 100px;
+    width: 140px;
+    margin-top: 0px;
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+.menu-icon {
+    display: none; /* Hide the menu icon by default */
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.619);
+    padding: 10px 20px;
+    border-radius: 99px;
+    transition: 150ms;
+}
+
+.navigation li a:hover {
+    background: #fa3912c4;
+}
+
+.formcontainer{
+    width: 300px;
+    margin-left: 100px;
+}
+
+
